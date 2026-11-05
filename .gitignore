@@ -1,0 +1,21 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node / Frontend dependencies
+node_modules/
+
+# Large archives & generated datasets (>100MB GitHub limit)
+Archive.zip
+data/benchmark_dataset/
+data/FashionMNIST/
+data/cifar-10-python.tar.gz
